@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li{
+    float: left;
+}
+li a{
+    border: 1px solid black;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    background-color: orange;
+}
