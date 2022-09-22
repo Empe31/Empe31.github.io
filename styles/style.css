@@ -9,7 +9,7 @@ body{
     background-color: black;
     margin: 0px;
     padding: 0px;
-}
+    }
 
 .menu li{
     float: left;
@@ -21,8 +21,10 @@ li a{
     display: block;
     text-decoration: none;
     text-align: center;
+    transition: 0.5s;
 }
 
 a:hover{
     background-color: orange;
+    transition: 0.5s;
 }
