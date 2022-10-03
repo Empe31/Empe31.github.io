@@ -49,3 +49,27 @@
 #exampleFormControlTextarea2 {
     font-size: 2rem!important;
 }
+.fondodegrad{
+    height: 90px;
+    background-image: linear-gradient(to bottom right, #1b3542, #1e5371);
+}
+
+.fondodegrad ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    margin: 0px
+}
+.fondodegrad ul li{
+    display: inline-block;
+    margin: auto;
+}
+.fondodegrad a{
+    color: white;
+    text-decoration: none;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    display: inline-flex;
+    align-items: center;
+    height: 90px;
+}
