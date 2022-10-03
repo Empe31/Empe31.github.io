@@ -1,0 +1,51 @@
+#tic{
+     color: green!important;
+}
+.secpos{
+    top: 90px;
+}
+.card-img{
+    filter: brightness(50%);
+    height: 100%;
+}
+.medio{
+    height: 950px;    
+}
+.medio p{
+ 
+    font-size: 1.2rem;
+}
+.medio h1{
+     font-size: 3rem;
+}
+.titulo{
+    text-align: center;
+}
+.ora{
+    justify-content: center;
+}
+#sec2 .btn{
+    font-weight: bolder!important;
+    padding: 0.1rem 0.3rem!important;
+    font-size: .875rem!important;
+    border-radius: 0.4rem!important;
+}
+.letrablanca{
+    color: white!important;
+}
+.celosc{
+    background-color: rgb(0, 162, 184)!important;
+    border-color: rgb(0, 116, 131)!important;
+}
+.gris{
+    background-color: rgb(51, 50, 50)!important;
+}
+.sub{
+    text-decoration: underline dotted;
+}
+.center{
+    text-align: center;
+}
+#exampleFormControlTextarea2 {
+    font-size: 2rem!important;
+}
