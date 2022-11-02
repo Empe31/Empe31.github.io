@@ -73,3 +73,29 @@
     align-items: center;
     height: 90px;
 }
+#sec5 .card{
+margin: 2em 2px 2px 2px;
+text-align: center;
+width: 40%;
+}
+.estudiante{
+    border: 1px solid blue!important;
+}
+.trainee{
+    border: 1px solid green!important;
+}
+.junior{
+    border: 1px solid orange!important;
+}
+.nomargin{
+    margin: 0px;
+}
+.cuadroapagar{
+    background-color: rgb(204, 229, 255);
+    border-radius: 5px;
+    height: 45px;
+}
+.cuadroapagar p{
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
