@@ -19,13 +19,18 @@ function aplicaDescuento(cantidad, categoria){
     return precio*Number(descuento(categoria));
 
 }
-function validador(){
-    
-}
 
-inputResumen.addEventListener('click', (e)=>{e.preventDefault();
-aPagar.innerHTML = `${aplicaDescuento(inputCantidad.value, inputCategoria.value)}`;
-})
+inputResumen.addEventListener("click", (e) => {
+    e.preventDefault();
+    if (inputCantidad.value && inputCategoria.selectedIndex != 0) {
+      aPagar.innerHTML = `${aplicaDescuento(
+        inputCantidad.value,
+        inputCategoria.value
+      )}`;
+    } else {
+      alert("Para calcular el total debes ingresar la cantidad y la categoría");
+    }
+  });
 
 inputBorrar.addEventListener('click', (e)=>{e.preventDefault();
     inputNombre.value="";
